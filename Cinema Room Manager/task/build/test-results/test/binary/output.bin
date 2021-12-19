@@ -1,0 +1,182 @@
+[1;31m
+Start test 1[0m
+Enter the number of rows:
+> 7
+(Enter the number of seats in each row:
+> 8
+	Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S S S S S S 
+3 S S S S S S S S 
+4 S S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+Enter a row number:
+> 2
+"Enter a seat number in that row:
+> 4
+Ticket price: $10
+	Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S B S S S S 
+3 S S S S S S S S 
+4 S S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+[1;31m
+Start test 2[0m
+Enter the number of rows:
+> 7
+(Enter the number of seats in each row:
+> 8
+	Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S S S S S S 
+3 S S S S S S S S 
+4 S S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+Enter a row number:
+> 4
+"Enter a seat number in that row:
+> 1
+Ticket price: $10
+	Cinema:
+  1 2 3 4 5 6 7 8 
+1 S S S S S S S S 
+2 S S S S S S S S 
+3 S S S S S S S S 
+4 B S S S S S S S 
+5 S S S S S S S S 
+6 S S S S S S S S 
+7 S S S S S S S S 
+Enter the number of rows:
+> 9
+(Enter the number of seats in each row:
+> 9
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter a row number:
+> 1
+"Enter a seat number in that row:
+> 1
+Ticket price: $10
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 B S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter the number of rows:
+> 9
+(Enter the number of seats in each row:
+> 9
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter a row number:
+> 7
+"Enter a seat number in that row:
+> 8
+Ticket price: $8
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S B S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter the number of rows:
+> 9
+(Enter the number of seats in each row:
+> 9
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter a row number:
+> 5
+"Enter a seat number in that row:
+> 5
+Ticket price: $8
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S B S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter the number of rows:
+> 9
+(Enter the number of seats in each row:
+> 9
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S S S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
+Enter a row number:
+> 4
+"Enter a seat number in that row:
+> 5
+Ticket price: $10
+	Cinema:
+  1 2 3 4 5 6 7 8 9 
+1 S S S S S S S S S 
+2 S S S S S S S S S 
+3 S S S S S S S S S 
+4 S S S S B S S S S 
+5 S S S S S S S S S 
+6 S S S S S S S S S 
+7 S S S S S S S S S 
+8 S S S S S S S S S 
+9 S S S S S S S S S 
