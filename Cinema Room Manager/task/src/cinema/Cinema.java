@@ -4,20 +4,44 @@ import java.util.Scanner;
 
 public class Cinema {
 
+    static String[][] seats;
+
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of rows:");
-        int row = sc.nextInt();
+        int row = scanner.nextInt();
         System.out.println("Enter the number of seats in each row:");
-        int column = sc.nextInt();
-        String[][] seats = initSeats(row, column);
-        printSeats(seats);
+        int column = scanner.nextInt();
+        seats = initSeats(row, column);
+
+        while (true) {
+            System.out.println("1. Show the seats");
+            System.out.println("2. Buy a ticket");
+            System.out.println("0. Exit");
+            int option = scanner.nextInt();
+            switch (option) {
+                case 1: {
+                    printSeats(seats);
+                    break;
+                }
+                case 2: {
+                    buyTicket(scanner);
+                    break;
+                }
+                case 0: {
+                    return;
+                }
+            }
+        }
+    }
+
+    private static void buyTicket(Scanner scanner) {
         System.out.println("Enter a row number:");
-        row = sc.nextInt();
+        int row = scanner.nextInt();
         System.out.println("Enter a seat number in that row:");
-        column = sc.nextInt();
-        markSeat(row, column, seats);
-        printSeats(seats);
+        int column = scanner.nextInt();
+        markSeat(row, column);
     }
 
     public static String[][] initSeats(int row, int column) {
@@ -49,7 +73,7 @@ public class Cinema {
         }
     }
 
-    public static void markSeat(int row, int column, String[][] seats) {
+    public static void markSeat(int row, int column) {
         int allSeats = seats.length * seats[0].length;
         if (allSeats > 60) {
             if (row <= seats.length / 2) {
